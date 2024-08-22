@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './Home';
-import About from './About';
-import Timeline from './Timeline';
-import Contact from './Contact';
-import Header from './Header';
-import Footer from './Footer';
-import Error from "./Error";
-import Error404 from "./Error404";
+import Home from './components/Home';
+import About from './components/About';
+import Timeline from './components/Timeline';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Error from "./components/Error";
+import Error404 from "./components/Error404";
 
 export default function App() {
     return (
